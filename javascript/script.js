@@ -20,3 +20,13 @@ var sayHello = function(){
     console.log("hello " )
 }
 sayHello()
+//array
+var arr = [1,2,3,4,5]
+console.log(arr)
+//object
+var person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+}
+console.log(person)
