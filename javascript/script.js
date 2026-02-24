@@ -1,5 +1,17 @@
 console.log("hello world")
-let a = 10
-let b = 20
-let c = a + b
-console.log(c)
+
+var num = 10
+console.log(num)
+console.log(typeof num)
+num = true
+console.log(num)
+console.log(typeof num)
+num = "hello"
+console.log(num)
+console.log(typeof num)
+num = null
+console.log(num)
+console.log(typeof num)
+num = undefined
+console.log(num)
+console.log(typeof num)
