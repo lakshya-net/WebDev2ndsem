@@ -30,3 +30,11 @@ var person = {
     city: "New York"
 }
 console.log(person)
+//symbol
+var sym1 = Symbol(1)
+var sym2 = Symbol(1)
+if(sym1 === sym2){
+    console.log("sym1 and sym2 are equal")
+}else{
+    console.log("sym1 and sym2 are not equal")
+}
