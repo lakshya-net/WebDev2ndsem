@@ -37,4 +37,8 @@ if(sym1 === sym2){
     console.log("sym1 and sym2 are equal")
 }else{
     console.log("sym1 and sym2 are not equal")
+} 
+//loop
+for(var i = 0; i < 10; i++){
+    console.log(i)
 }
