@@ -15,3 +15,8 @@ console.log(typeof num)
 num = undefined
 console.log(num)
 console.log(typeof num)
+//function
+var sayHello = function(){
+    console.log("hello " )
+}
+sayHello()
