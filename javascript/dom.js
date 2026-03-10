@@ -15,11 +15,11 @@ abc[1].style.fontFamily = " Arial, sans-serif";
 abc[0].style.backgroundColor = "yellow";*/
 
 const test = document.querySelectorAll(".intro");
-test.forEach((element) => {
+for(element in test)  {
   element.style.color = "blue";
   element.style.fontSize = "18px";
   element.style.fontFamily = "Arial, sans-serif";
   element.style.backgroundColor = "lightgray";
-});
+};
 
 
