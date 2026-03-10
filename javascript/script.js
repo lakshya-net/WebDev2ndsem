@@ -6,7 +6,7 @@ console.log(typeof num)
 num = true
 console.log(num)
 console.log(typeof num)
-num = "hello"
+num = "hello" 
 console.log(num)
 console.log(typeof num)
 num = null
@@ -42,3 +42,28 @@ if(sym1 === sym2){
 for(var i = 0; i < 10; i++){
     console.log(i)
 }
+//arrow function
+let add =(a,b)=>{
+    console.log(a+b);
+};
+add(100,60);
+//array methods
+var myinfo= new Array();
+var myinfo1 = Array(); 
+console.log(myinfo)
+console.log(myinfo1)
+//
+let collection=[
+    {},
+    [],
+    true,
+    100,
+    "hello",
+    function (){},
+    undefined,
+    null,
+    new Date(),
+
+]
+console.log(collection)
+//
