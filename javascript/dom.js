@@ -8,7 +8,7 @@ result.innerHTML = "Hello, World!";
 
 
 /*const abc = document.getElementsByTagName("p");
-abc[0].innerHTML = "This is the not first paragraph.";
+abc[0].innerHTML = "dThis is the not first paragraph.";
 abc[2].style.color = "red";
 abc[1].style.fontSize = "20px";
 abc[1].style.fontFamily = " Arial, sans-serif";
