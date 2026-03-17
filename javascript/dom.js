@@ -43,6 +43,9 @@ function onMouseOut() {
 function onMouseUp() {
   document.getElementById("heading").style.color = "blue";
 }
+function doubleClick() {
+  alert("calm down!!")
+}
 function onLoad() {
   alert("Page loaded!");
 }
